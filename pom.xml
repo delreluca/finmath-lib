@@ -97,6 +97,19 @@
 	</contributors>
 
 	<dependencies>
+        <!-- https://mvnrepository.com/artifact/io.atlassian.fugue/fugue -->
+        <dependency>
+            <groupId>io.atlassian.fugue</groupId>
+            <artifactId>fugue</artifactId>
+            <version>4.6.2</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>25.1-jre</version>
+        </dependency>
 		<dependency>
 			<groupId>org.jetbrains.kotlin</groupId>
 			<artifactId>kotlin-stdlib</artifactId>
